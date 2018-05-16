@@ -1,15 +1,23 @@
 {
-  "name": "blogposts",
-  "version": "1.0.0",
-  "description": "",
+  "name": "node-shopping-list-v1",
+  "version": "0.0.1",
+  "description": "blogposts",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "george",
-  "license": "ISC",
   "dependencies": {
-    "uuid": "^3.2.1"
-  }
+    "body-parser": "^1.15.2",
+    "express": "^4.12.4",
+    "morgan": "^1.7.0",
+    "uuid": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node"
+  ],
+  "license": "MIT"
 }
